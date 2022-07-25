@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+body {
+    padding : 0px;
+    font-family: montserrat-regular;
+    color : gray;
+}
+p {
+    margin: 0px;
+}
+.header-main-container{
+    padding: 10px 30px;
+    display: flex;
+    color : white;
+}
+.name-and-logo-container{
+    display: flex;
+    align-items: center;
+    flex : 1;
+}
+.logo{
+    width: 90px;
+}
+.company-name{
+    padding-left: 10px;
+    height: max-content;
+}
+.company-name-top{
+    font-family: montserrat-bold;
+    font-size: 31px;
+}
+.company-name-bottom{
+    font-family: montserrat-regular;
+}
+.site-nav-container{
+    flex : 1;
+}
+.nav-list {
+    list-style-type: none;
+}
+.nav-list li:hover{
+    cursor: pointer;
+}
+.nav-list li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav-list-container{
+    width: max-content;
+    float: right;
+}
+.backgound-one {
+    background-image: url("../img/rm373batch2-04.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.backgound-two {
+
+}
+.backgound-three {
+
+}
+.nav-search-icon:hover{
+    color : rgb(229, 97, 97);
+}
+.landing-section{
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+.landing-section-title{
+    margin-bottom: 70px;
+    font-size: 55px;
+    font-family: montserrat-bold;
+}
+.landing-section-description{
+    font-family: montserrat-light;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.landing-section-contact-cta button {
+    padding: 15px 40px 15px 40px;
+    font-family: montserrat-bold;
+    border: 0px solid;
+    border-radius: 36px;
+    color: white;
+    background-color: #eb6c6c;
+}
+.landing-section-contact-cta button:hover{
+    background-color: #a96c6c;
+    cursor : pointer;
+}
+.height-div{
+    height: 1000px;
+}
