@@ -14,6 +14,7 @@ body {
     padding : 0px;
     font-family: montserrat-regular;
     color : gray;
+    margin: 0px;
 }
 p {
     margin: 0px;
@@ -103,4 +104,200 @@ p {
 }
 .height-div{
     height: 1000px;
+}
+.arrow-down-container{
+    margin-top: 65px;
+    font-size : 30px;
+}
+.who-we-are-section{
+    margin-top: 100px;
+    background-color : rgb(240, 240, 240);
+    color : rgb(35, 35, 35);
+    text-align: center;
+    padding-bottom: 150px;
+}
+.section-header-container{
+    padding-top : 60px;
+    font-size: 120%;
+}
+.section-second-header{
+    margin-bottom: 30px;
+}
+.who-we-are-content{
+    font-family: montserrat-light;
+    max-width: 1100px;
+    line-height: 40px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.learn-more-button-container{
+    padding-bottom: 90px;
+}
+
+.learn-more-button-container button{
+    padding:15px 50px;
+    border : 0px dotted;
+    background-color: #eb6c6c;
+    border-radius: 100px;
+    font-size: 120%;
+    color:white;
+    font-family: montserrat-bold;
+}
+.card-item {
+    box-sizing: border-box;
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #cbd4dc;
+    min-height: 250px;
+    max-width: 340px;
+}
+.card-content{
+    font-family: montserrat-light;
+    font-size: 80%;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.card-icon {
+    font-size: 350%;
+    color : rgb(78, 166, 232);
+}
+.card-title {
+    margin-top: 15px;
+}
+.who-we-are-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.information-card-container,.security-card-container,.web-card-container{
+    padding: 10px;
+}
+.details-section{
+    display: flex;
+    align-items: center;
+    color : white;
+}
+.left-details-section{
+    flex: 1;
+    padding: 10px 10px 50px 25px
+}
+.right-details-section{
+    flex:1;
+}
+.details-content{
+    font-family: montserrat-light;
+    font-size: 90%;
+    line-height: 32px;
+    max-width: 450px !important;
+}
+.services-details-container,.web-details-container,.security-details-container,.mobile-app-details-container{
+    padding-top: 25px;
+    border-top: 1px solid gray;
+    padding-bottom : 55px;
+}
+.services-details-container{
+    padding-top: 55px;
+    border: 0px solid;
+}
+.right-details-section{
+    font-size: 180%;
+    font-family: montserrat-bold;
+}
+.right-details-content{
+    max-width: 500px;
+    margin : auto;
+    text-align: center;
+}
+.learn-more-section{
+    background-color: white;
+    display:flex;
+    color :rgb(35, 35, 35);
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+.learn-more-text-container{
+    text-align: center;
+    padding: 0px 10px;
+}
+.learn-more-section-button-container{
+    padding: 0px 10px;
+}
+.learn-more-section-button-container button{
+    padding:15px 50px;
+    border : 0px dotted;
+    background-color: #eb6c6c;
+    border-radius: 100px;
+    font-size: 120%;
+    color:white;
+    font-family: montserrat-bold;
+}
+.learn-more-text-container{
+    font-family: montserrat-bold;
+    font-size:150%;
+}
+.about-services-contact-section{
+    line-height: 35px;
+    font-family: montserrat-light;
+    font-size: 90%;
+}
+.contact-about-services-container{
+    color:white;
+    display:flex;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    max-width: 1250px;
+    margin : auto;
+}
+.about-container{
+    flex:5;
+    padding : 10px;
+}
+.about-container div{
+    max-width: 400px;
+
+}
+.services-container div,.contact-container div{
+    max-width: 300px;
+}
+.services-container{
+    flex:3;
+    padding : 10px;
+}
+.contact-container{
+    flex:3;
+    padding : 10px;
+}
+.about-title-container,.service-title-container,.contact-title-container{
+    font-size: 130%;
+    font-family: montserrat-bold;
+    padding-bottom:  20px;
+}
+.contact-workhours-container,.about-description-container,.about-content-container,.about-learn-more-container{
+    padding-bottom : 20px;
+}
+.learn-more-here{
+    color: #eb6c6c;
+    font-weight: 900;
+}
+.nav-link{
+    color : white;
+    text-decoration: none;
+}
+.last-item{
+    display: flex;
+    height : 100px;
+    align-items: center;
+    border-top : 1px solid gray;
+    color : white;
+    padding: 10px;
+    max-width: 1250px;
+    margin: auto;
+}
+.powered-by{
+    text-align: right;
+}
+.copyright-container, .powered-by{
+    flex : 1
 }
